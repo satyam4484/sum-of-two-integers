@@ -4,15 +4,14 @@
 
 using namespace std;
 
-'int main'(){
+int main()
+{
 
-    int a,b,c;
-    cout<<"enter the value of a: <<    endl";
-    cin>>a;
-    cout << "enter the value of b: << endl";
-    cin>>b;
-    c=a+b;
-    cout<<"the sum is"<<end1;
-    
-    return 0;
+        int a, b, c;
+        cout << "Enter two integers to add\n";
+        cin >> a >> b;
+        c = a + b;
+        cout <<"Sum of the numbers: " << c << endl;
+
+        return 0;
 }
